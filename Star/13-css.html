@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>
+    CSS
+  </title>
+  <style type="text/css">
+    *{margin: 0px;padding: 0px;}
+    #container{width: 900px;height: auto;margin: 0 auto;}
+
+    #banner{height: 146px;background-image:url("Image/header.png");margin-bottom: 10px;}
+    #A{float: right;margin-top: 120px;}
+    #A li{list-style-type: none;float: left;padding: 5px 10px;background: #f5f5f5;
+          margin: 0 5px;border:solid 1px #c5c5c5;}
+
+    #left{width: 224px;float: left;}
+    #left_top{height:21px;background: url("Image/left_top.png") no-repeat;}
+    #left_middle{height: 414px;background: url("Image/left.gif") repeat-y;}
+    #B{padding-top: 20px;}
+    #B li{list-style-type: none;padding: 5px 0px;text-align: center;
+          border-bottom: 1px #CCC dotted;letter-spacing: 5px;}
+    #left_bottom{height: 15px;background: url("Image/left_bottom.gif") no-repeat;)}
+
+    #right{width: 656px;margin-left: 20px;float: left}
+    #content{height: 390px;background:url("Image/right.gif") repeat-y;padding: 10px 15px;}
+    #C{margin-top: 15px;font-size: 12px;}
+    #C li{height: 30px;line-height: 30px;border-bottom: dashed 1px #CCC;list-style-type: none;}
+    .time{float: right;}
+    #footer{height: 50px;background-color:#F5F5F5;;margin-top: 10px;
+            text-align: center;font-size: 8px;padding-top: 5px;}
+
+    #clear{clear: both;}
+
+    h2{border-bottom: 1px #CCC solid;}
+    a{text-decoration: none;color:black;}
+  </style>
+</head>
+<body bgcolor="#e5e5e5">
+  <div id="container">
+    <div id="banner">
+      <ul id="A">
+        <li><a href="#">自我介绍</a></li>
+        <li><a href="#">留言列表</a></li>
+        <li><a href="#">后天管理</a></li>
+      </ul>
+    </div>
+
+    <div id="left">
+      <div id="left_top"></div>
+      <div id="left_middle">
+        <h2><center>参与人员</center></h2>
+        <ul id="B">
+          <li><a href="#">张三</a></li>
+          <li><a href="#">李四</a></li>
+          <li><a href="#">王五</a></li>
+        </ul>
+      </div>
+      <div id="left_bottom"></div>
+    </div>
+
+    <div id="right">
+      <div id="content">
+        <h2>留言列表</h2>
+        <ul id="C">
+          <li><span class="time">2014-7-1</span>准备好好学习一下Markdown，感觉自己都out了，不知道以后支不支持代码输入</li>
+          <li><span class="time">2014-7-1</span>准备好好学习一下Markdown，感觉自己都out了，不知道以后支不支持代码输入</li>
+          <li><span class="time">2014-7-1</span>准备好好学习一下Markdown，感觉自己都out了，不知道以后支不支持代码输入</li>
+          <li><span class="time">2014-7-1</span>准备好好学习一下Markdown，感觉自己都out了，不知道以后支不支持代码输入</li>
+          <li><span class="time">2014-7-1</span>准备好好学习一下Markdown，感觉自己都out了，不知道以后支不支持代码输入</li>
+        </ul>
+      </div>
+      <div id="footer">版权所有<br>Java开发班</div>
+    </div>
+
+    <div id="clear"></div>
+  </div>
+</body>
+</html>
